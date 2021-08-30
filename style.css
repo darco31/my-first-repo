@@ -9,6 +9,7 @@
 :root {
     --main-bg-color: rgb(215, 229, 245);
     --main-tx-color: #FDDB27FF;
+    --main-tx-color: 
   }
 
 body  {
@@ -19,7 +20,11 @@ body  {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-tx-color);
 }
 
 #menu, #logo {
@@ -126,5 +131,15 @@ body  {
 
     .container {
         margin-top: 2rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul > li {
+        padding: 1rem;
     }
 }
