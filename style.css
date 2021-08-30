@@ -9,7 +9,7 @@
 :root {
     --main-bg-color: rgb(215, 229, 245);
     --main-tx-color: #FDDB27FF;
-    --main-tx-color: 
+    --second-tx-color: rgb(139, 121, 29);
   }
 
 body  {
@@ -20,6 +20,7 @@ body  {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(61, 143, 236), rgb(9, 63, 88));
 }
 
 a {
@@ -44,8 +45,7 @@ a {
     
 }
 
-#menu a {
-    
+#menu a {  
     text-decoration: none;
     color: rgb(139, 121, 29);
     
@@ -79,6 +79,10 @@ a {
     font-size: 2rem;
     color: #FDDB27FF;
     text-align: center;
+}
+
+#new__image {
+    margin: 1rem;
 }
 
 .first__para {
@@ -142,4 +146,12 @@ a {
     ul > li {
         padding: 1rem;
     }
+
+    /* section > #new__image {
+        height: 20rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } */
 }
